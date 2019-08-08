@@ -33,7 +33,7 @@ for user in input_users:
 questions = [
     {
         'type': 'checkbox',        
-        'message': 'Select the team members',
+        'message': 'Select the team members (enter to finish)',
         'name': 'members',
         'choices':  all_users,
         'validate': lambda answer: 'You must choose at least 1 member.' \
